@@ -86,7 +86,7 @@ header {
 .sub-header {
   text-align: center;
   font-size: 1.2em;
-  margin: 1em;
+  margin: 1em 0;
 }
 
 .mobile-header {
@@ -166,7 +166,7 @@ a {
   
   .sub-header {
     font-size: 1.0em;
-    white-space:nowrap;
+    
   }
   
   .line {
@@ -195,3 +195,5 @@ a {
     display: none;
   }
 }
+
+

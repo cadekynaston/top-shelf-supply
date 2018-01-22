@@ -34,7 +34,6 @@ header {
 
 .content {
   max-width: 900px;
-
   margin: 0 auto;
 }
 
@@ -93,8 +92,12 @@ header {
 .mobile-header {
   overflow: hidden;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1.5em;
   margin: 1.5em 0;
+}
+
+.contact {
+  font-size: 1.2em;
 }
 
 footer {
@@ -162,7 +165,8 @@ a {
   }
   
   .sub-header {
-    font-size: 1.05em;
+    font-size: 1.0em;
+    white-space:nowrap;
   }
   
   .line {

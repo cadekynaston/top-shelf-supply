@@ -34,9 +34,7 @@ header {
 
 .content {
   max-width: 900px;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+
   margin: 0 auto;
 }
 
@@ -107,7 +105,6 @@ footer {
 
 
 .footer-bar {
-
   height: 5em;
   width: 100%;
   background-color: black;
@@ -126,11 +123,37 @@ footer {
 
 }
 
+@media screen and (max-width: 900px) {
+  
+  .main-content-header {
+    font-size: 1em;
+  }
+  
+  .content {
+    width: 90%;
+  }
+  
+  .sub-image-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sub-image {
+    max-width: 95%;
+    align-self: center;
+  }
+  
+}
+
 @media screen and (max-width: 1050px) {
 
   .main-content-image {
-    width: 90%;
-    margin: 0 5%;
+  
+  }
+  
+  .sub-image {
+  
   }
 
 }
